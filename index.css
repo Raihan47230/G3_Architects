@@ -1,0 +1,171 @@
+
+
+body{
+     font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.bg{
+     background-color: rgba(119, 121, 122, 0.162);
+}
+.fornt{
+     font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: xx-large;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.bg_image{
+
+}
+.container{
+     width: 1060px;
+     margin: 0 auto;
+}
+ul li{
+     list-style: none;
+}
+.list_flex{
+     display: flex;
+     gap: 2rem;
+}
+.nav_flex{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.hambarger_manu{
+     display: none;
+}
+.text_alain{
+     text-align: center;
+}
+.btn_1{
+     font-size: medium;
+     background-color: aqua;
+     color: aliceblue;
+     padding: 15px 20px;
+     border-radius: 20px;
+     border: none;
+}
+.banner_img{
+     width: 70%;
+     margin-top: 40px;
+}
+.display_grid{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+     
+}
+.display_flex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 180px;
+     margin: 8rem auto;
+}
+.architect{
+     width: 608px;
+     height: 982px;
+}
+.top{
+     background-color: rgba(240, 248, 255, 0.472);
+     padding: 20px 30px;
+     border-radius: 20px;
+}
+.top_in{
+     background-color: rgba(240, 248, 255, 0.472);
+     margin-top: 20px;
+     padding: 20px 30px;
+     border-radius: 20px;
+}
+.display_flex_1{
+     display: flex;
+     justify-content: center;
+     gap: 180px;
+     margin: 30px auto;
+     align-items: center;
+}
+.minimaize{
+     width: 45px;
+     height: 45px;
+}
+.display{ 
+    text-align: center;
+    margin-top: 5rem;
+}
+.card{
+     border: 1px solid aqua;
+     height: 120px;
+     width: 100px;
+}
+.card_flex{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     gap: 10rem;
+     margin-top: 5rem;
+}
+.sponsors{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 3rem;
+     justify-content: center;
+     margin-top: 5rem;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+     .list_flex{
+               display: none;
+     }
+     .nav_flex{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+     }
+     .hambarger_manu{
+          display: block;
+     }
+     
+     .banner_img{
+          width: 100%;
+     }
+     .display_flex{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          text-align: center;
+     }
+     .architect{
+          width: 428px;
+          height: auto;
+     }
+     .display_grid{ 
+          grid-template-columns: repeat(1, 1fr);
+          
+     }
+     .display_flex_1{
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+     }
+     .card_flex{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 3rem;
+          
+     }
+     .sonsors{
+          display: flex;
+         flex-direction: column;
+     }
+}
